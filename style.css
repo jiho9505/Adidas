@@ -7,6 +7,31 @@ ul li {
     list-style: none;
 }
 
+
+.nav__uptag{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav__uptag i {
+    margin-right: 5px;
+}
+
+.nav__uptag div:hover {
+    text-decoration: underline;
+}
+
+.nav__downtag{
+
+}
+
+
 .title{
     text-align: center;
 }
