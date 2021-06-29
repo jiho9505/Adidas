@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: "AdineuePRO",Helvetica, Arial, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    color: rgba(255,255,255,.6);
+    background-color: #363738;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.info__inner{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.info__left{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.info__left img{
+    margin-right: 8px;
+}
+
+.info__inner ul{
+    display: flex;
+}
+
+.info__inner li{
+    margin-right: 18px;
+}
