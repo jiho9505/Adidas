@@ -7,6 +7,48 @@ ul li {
     list-style: none;
 }
 
+.ad{
+    display: flex;
+    justify-content: center;
+    background-color: #ede734;
+}
+
+.ad__inner {
+    display: flex;
+    width: 1000px;
+    padding: 20px 0px 40px 0px;
+}
+
+.ad__left{
+    width: 100%;
+    padding-left: 30px;
+    margin-left: 50px;
+}
+
+.ad__outerbtn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 70px;
+}
+
+.ad__innerbtn{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ad__innerbtn:hover{
+    color: gainsboro;
+}
+
+.ad__innerbtn i{
+    margin-left: 10px;
+}
+
+
 .category {
     display: flex;
     justify-content: center;
