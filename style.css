@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    font-family: "AdineuePRO",Helvetica, Arial, sans-serif;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-style: normal;
 }
 
 ul li {
@@ -45,6 +46,33 @@ ul li {
     line-height: 24px;
     margin-top: 10px;
 }
+
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebedee;
+    width: 1000px;
+}
+
+.menu li{
+    padding: 18px 10px; 
+}
+
+.menu__last{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-left: solid 1px #767677;
+    margin-right: 10px;
+    width: 150px;
+}
+
 
 .social__title{
     text-align: center;
