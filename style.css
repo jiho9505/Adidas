@@ -8,7 +8,6 @@ ul li {
     list-style: none;
 }
 
-
 .nav__uptag{
     display: flex;
     justify-content: center;
@@ -29,9 +28,88 @@ ul li {
 }
 
 .nav__downtag{
-
+    display: flex;
+    color: #767677;
+    padding: 3px 30px;
+    height: 10vh;
 }
 
+.nav__cont{
+    width: 100%;
+    
+}
+.nav__up{
+    display: flex;
+    font-size: 13px;
+}
+
+.nav__up ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0
+   
+}
+
+.nav__logo{
+    display:flex;
+    align-items: center;   
+}
+
+.nav__logo img{
+    height: 80%;
+}
+
+.nav__up li{
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav__men strong{
+    margin-left: 80px;
+}
+.nav__black{
+    color: black;
+}
+.nav__up img{
+    margin-left: 3px;
+    height: 70%;
+}
+
+.nav__search{
+    display: flex;
+    justify-content: space-between;
+    width: 13vw;
+    background-color:#ebedee;
+    padding: 8px;
+}
+
+.nav__side i{
+    color: black;
+    padding: 0px 15px;
+}
+
+
+
+.nav__down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__down ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__downtag li{
+    margin: 3px 20px 0 0;
+}
+
+.nav__side {
+    display: flex;
+    align-items: center;
+}
 
 .title{
     text-align: center;
