@@ -73,6 +73,121 @@ ul li {
     width: 150px;
 }
 
+.intro{
+    display: flex;
+    justify-content: center;
+}
+
+.intro__inner{
+    display: flex;
+    justify-content: center;
+    max-width: 1250px;
+}
+
+.intro__left, .intro__right{
+    margin: 0.5rem;
+    height: 100%;
+}
+.intro__img{
+    width: 100%;
+    height: 70%;
+    padding: 1.2rem 0;
+    
+}
+
+.intro__innerbtn{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.intro__innerbtn:hover{
+    color: #767677
+}
+
+.intro__innerbtn i{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px
+}
+
+.form__inner{
+    display: flex;
+    width: 70vw;
+    border: 1px solid #ebedee;
+    padding: 20px 30px;
+}
+
+.form__desc, .form__right{
+    width: 100%;
+}
+
+.form__right{
+    display:flex;
+    align-items: center;
+}
+
+.form__input{
+    width: 100%;
+    padding: 15px;
+    border: 0.3px solid black;
+    color: #767677;
+}
+
+.form__star{
+    margin-left: 5px;
+    color: red;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.photo__inner{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.photo img{
+    width: 95%;
+    margin-bottom: 35px;
+    height: 85%;
+}
+
+.photo__innerbtn{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.photo__innerbtn:hover{
+    color: #767677
+}
+
+.photo__innerbtn i{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.social{
+    margin-top: 60px;
+}
 
 .social__title{
     text-align: center;
@@ -84,6 +199,10 @@ ul li {
 }
 .social__buttons img{
     margin: 15px;
+}
+
+footer{
+    margin-top: 60px;
 }
 
 .ad{
@@ -131,7 +250,9 @@ ul li {
 .category {
     display: flex;
     justify-content: center;
-    font-size: 13px;   
+    font-size: 13px;
+    margin-top: 30px; 
+    margin-bottom: 60px;
 }
 
 .category__inner {
