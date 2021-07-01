@@ -84,6 +84,10 @@ ul li {
     padding: 8px;
 }
 
+.nav__search:hover{
+    border: 0.4px solid black;
+}
+
 .nav__side i{
     color: black;
     padding: 0px 15px;
@@ -135,11 +139,15 @@ ul li {
     display: flex;
     justify-content: space-between;
     background-color: #ebedee;
-    width: 1000px;
+    width: 70vw;
 }
 
 .menu li{
     padding: 18px 10px; 
+}
+
+.menu li:hover{
+    color: #767677
 }
 
 .menu__last{
@@ -148,7 +156,7 @@ ul li {
     font-weight: bold;
     border-left: solid 1px #767677;
     margin-right: 10px;
-    width: 150px;
+    width: 10vw;
 }
 
 .menu__last div{
@@ -321,7 +329,7 @@ footer{
 
 .ad__inner {
     display: flex;
-    width: 1000px;
+    width: 70vw;
     padding: 20px 0px 40px 0px;
 }
 
@@ -366,7 +374,6 @@ footer{
 .category__inner {
     display: flex;
     justify-content: center;
-    width: 1100px;
 }
 
 .category__inner ul {
@@ -400,7 +407,7 @@ footer{
 .info__inner{
     display: flex;
     justify-content: space-around;
-    width: 900px;
+    width: 60vw;
 }
 
 .info__left{
